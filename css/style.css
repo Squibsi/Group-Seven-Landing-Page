@@ -36,7 +36,7 @@
   justify-content: center;
 }
 
-/* Hero */
+/* Hero here is every change for hero video*/
 .hero {
   position: relative;
   height: 100vh;
@@ -53,7 +53,7 @@
   z-index: 0;
 }
 
-/* Shared hero overlay text */
+/* Shared hero overlay text (LUMINA + ONE) */
 .hero-text,
 .hero-bottom-text {
   position: absolute;
@@ -62,7 +62,7 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Existing hero center text */
+/* lumina hero center text */
 .hero-text {
   right: 5%;
   top: 50%;
@@ -77,6 +77,7 @@
   font-family: sans-serif;
   margin: 0.5rem 0;
 }
+
 
 .hero-text p {
   font-size: 1.2rem;
@@ -121,19 +122,21 @@ main {
   padding: 1rem;
 }
 
-#CTA {
+/*Icon Specifications*/
+#IS {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
 }
 
-#CTA img {
+#IS img {
   height: 45px;
   width: auto;
   object-fit: contain;
 }
 
+/* the 4 speaker photos beneath the icons */
 #photos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -150,6 +153,7 @@ main {
   display: block;
 }
 
+/*Specifications text*/
 h3 {
   padding-top: 3rem;
   display: flex;
@@ -158,6 +162,7 @@ h3 {
   font-size: 25px;
 }
 
+/*the logo above the about section*/
 #minilogo {
   display: flex;
   justify-content: center;
@@ -168,6 +173,7 @@ h3 {
   height: auto;
 }
 
+/*About us text*/
 p.p2 {
   display: flex;
   justify-content: center;
@@ -179,6 +185,7 @@ p.p2 {
   padding-bottom: 3rem;
 }
 
+/*Centered stack (Coming soon speaker images)*/
 .centered-stack {
   display: flex;
   flex-direction: column;
@@ -193,7 +200,7 @@ p.p2 {
   display: block;
 }
 
-/* Footer */
+/* Footer center */
 footer {
   background-color: #E3E3D0;
   display: flex;
@@ -206,11 +213,12 @@ footer {
 .footer article {
   max-width: 250px;
 }
-
-h4, h5, h6 {
+/* font size */
+h4{
   font-size: 25px;
 }
 
+/*copy right text*/
 #bunden {
   background-color: #E3E3D0;
   padding-bottom: 10px;
@@ -222,7 +230,7 @@ h4, h5, h6 {
 /* RESPONSIVE DESIGN */
 @media (max-width: 600px) {
   body {
-    background-color: aquamarine;
+  background-color: #E3E3D0;
   }
   #photos {
     display: block;
@@ -232,7 +240,7 @@ h4, h5, h6 {
 
 @media (min-width: 601px) and (max-width: 1024px) {
   body {
-    background-color: chartreuse;
+    background-color: #E3E3D0;
   }
   #photos {
     display: block;
